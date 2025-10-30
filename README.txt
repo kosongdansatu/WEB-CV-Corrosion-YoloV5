@@ -69,3 +69,5 @@ c. Gunakan Aplikasi
    - Klik tombol "Deteksi Korosi" untuk melihat hasilnya.
    
 d. Jika anda hanya ingin menjalankan aplikasi di lokal tanpa UI maka coba untuk menjalankan python app.py pada terminal
+
+contoh hasil running
