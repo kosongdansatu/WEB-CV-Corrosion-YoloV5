@@ -111,7 +111,7 @@ def main():
 
         col1, col2 = st.columns(2)
         with col1:
-            st.image(image, caption="Gambar Asli", use_column_width=True)
+            st.image(image, caption="Gambar Asli", use_container_width=True)
 
         if st.button("Deteksi Korosi"):
             with st.spinner("Sedang memproses..."):
@@ -121,7 +121,9 @@ def main():
                 )
 
             with col2:
-                st.image(result_image, caption="Hasil Deteksi", use_column_width=True)
+                st.image(
+                    result_image, caption="Hasil Deteksi", use_container_width=True
+                )
 
             st.success("Deteksi selesai!")
             st.write("Ringkasan Deteksi:", summary)
